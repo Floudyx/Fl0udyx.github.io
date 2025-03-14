@@ -121,27 +121,23 @@
                       class="u-container-style u-expanded-width u-group u-palette-1-base u-radius u-shape-round u-group-2"
                     >
                       <div class="u-container-layout u-container-layout-3">
-                        <iframe
-                          src="https://iframe.interaxai.com/67b491c2d51127765d23f34d"
-                          frameborder="0"
-                          width="100%"
-                          height="100%">
+                        <iframe 
+                        src="https://iframe.interaxai.com/67b491c2d51127765d23f34d" 
+                        frameborder="0"
+                        width="100%"
+                        height="100%"
+                        id="interaxai-widget"
+                        >
                         </iframe>
-                        <div id="interaxai-widget"></div>
                         <script id="interaxai-widget-config">
                           window.INTERAX_AI = {
                             id: "67b491c2d51127765d23f34d",
                             theme: "light",
                           };
-                          const interaxAI1 = async () => {
-                            const t = await fetch(`https://interaxai.com/api/embed/version?widgetId=${INTERAX_AI.id}`).then(
-                                (t) => t.text()
-                              ),
-                              e = document.createElement("script");
-                            (e.id = "interaxai-widget-script"),
-                              (e.src = `https://cdn.jsdelivr.net/gh/interaxai/cdn@${t}/dist/bundle.js`),
-                              document.head.appendChild(e);
-                          };
+                          const interaxAI1=async()=>{const t=await fetch(`https://interaxai.com/api/embed/version?widgetId=${INTERAX_AI.id}`).then((t=>t.text())),
+                          e=document.createElement("script");e.id="interaxai-widget-script",
+                          e.src=`https://cdn.jsdelivr.net/gh/interaxai/cdn@${t}/dist/bundle.js`,
+                          document.head.appendChild(e)};
                           interaxAI1();
                         </script>
                       </div>
@@ -199,9 +195,9 @@
                         frameborder="0"
                         width="100%"
                         height="100%"
+                        id="interaxai-widget"
                       >
                       </iframe>
-                      <div id="interaxai-widget"></div>
                       <script id="interaxai-widget-config">
                         window.INTERAX_AI = {
                           id: "67bf5a7d209ec4b64e6bbb34",
@@ -272,9 +268,9 @@
                         frameborder="0"
                         width="100%"
                         height="100%"
+                        id="interaxai-widget"
                         >
                       </iframe>
-                      <div id="interaxai-widget"></div>
                       <script id="interaxai-widget-config">
                         window.INTERAX_AI = {
                           id: "67c450a7013e2eabd0828d81",
